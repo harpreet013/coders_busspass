@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    /* margin-top: 10px; */
+}
+.image {
+    background-image: url(../images/buses-2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .container {
+    width: 1070px;
+    height: 657px;
+} 
+button {
+    background-color: green;
+    width: 40%;
+    padding: 10px 25px;
+    height: 35px;
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 30%;
+     margin-bottom: 10px; 
+    outline: none;
+    border: 1px solid green;
+    font-weight: bold;
+}
+span{
+    color : red;
+}
+/* .form-group {
+    width: 60%;
+    margin-left: 40%;
+} 
+.form1 {
+    margin-left: 10%;
+}
+.form2 {
+    margin-left: 62%;
+}
+.form3 {
+    margin-left: 30%;
+}
+.form4 {
+    margin-left: -6.5%;
+} */
+@media only screen and (max-width: 575px){
+    .image {
+        max-width: 100%;
+    }
+}

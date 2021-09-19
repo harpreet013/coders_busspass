@@ -1,0 +1,33 @@
+h1{
+    margin-left: 5px;
+    margin-bottom: 20px;
+   
+}
+h2{
+    border-bottom: 2px solid lightblue;
+}
+.one{
+    margin-left: 25px;
+    margin-top: 23px;
+    text-align: center;
+    }
+span{
+    padding: 10px;
+    margin-top: 20px;
+}
+.two{
+    justify-content: end;
+    padding-left: 800px;
+}
+.table{
+    margin-top: 23px;
+    width: 100%;
+}
+
+h6{
+   margin-left: 25px; 
+   margin-top: 15px;
+}
+.d-grid{
+    margin-left:  1100px; 
+}
