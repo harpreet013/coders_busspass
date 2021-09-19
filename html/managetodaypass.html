@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="../css/managetodaypass.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+    <h1>Manage Pass</h1>
+     <h2></h2>
+    <form class="form-inline" action="/action_page.php"></formclass>
+        <label for="number"></label>
+        <input type="number" class="one" placeholder="10" name="10" min="0" max="10"><span>records per page</span>
+        <label for="search" class="two">Search: </label>
+        <input type="search" class="form-control" id="search" name="search">
+        <table class="table table-bordered">
+            <thead>
+                <th>S.No</th>
+                <th>Pass Number</th>
+                <th>Full Name</th>
+                <th>Contact Number</th>
+                <th>Email</th>
+                <th>Creation Date</th>
+                <th>Action</th>
+            </thead>
+            <tbody class="body">
+                <tr>
+                    <td>No data available in table</td>
+             </tr>
+            </tbody>
+    </table>
+        <div class="third">
+           <h6>Showing 1 to 6 of 6 entries</h6>
+           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+               <button type="button" class="btn btn-outline-primary">Previous</button>
+               <button type="button" class="btn btn-outline-primary">1</button>
+               <button type="button" class="btn btn-outline-primary">Next</button>
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
