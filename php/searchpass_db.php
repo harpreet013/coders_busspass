@@ -15,7 +15,7 @@
          include  "connect.php";
         // include "view_pass.php";
          if($_SERVER['REQUEST_METHOD']== 'POST')
-        $passnumber = $_GET['passnumber'];
+        $passnumber = $_POST['passnumber'];
          
         $servername = "localhost";
          $username = "root";
@@ -23,7 +23,7 @@
          $dbname = "coders_busspass_database";
        
          $conn = mysqli_connect($servername, $username, $password,$dbname) or die(mysqli_error($mysqli));
-         $result = $conn->query("SELECT * FROM add_pass1 where Pass_Number = &passnumber") or die($conn->error);  
+         $result = $conn->query("SELECT * FROM add_pass1 /*where Pass_Number = &passnumber*/    ") or die($conn->error);  
 
          
        

@@ -4,8 +4,7 @@
     padding: 0;
 }
 .row1 {
-    border: 1px thick lightskyblue;
-    height: 60px;
+    height: 50px;
     color: white;
     background-color: skyblue;
 }
@@ -14,16 +13,19 @@
     color: white;
     background-color: skyblue;
 }
+.header {
+    background-color: skyblue;
+}
 .col-md-2 {
     position: relative;
     width: 100%;
-    top: 14px;
+    top: 14%;
     padding-left: 0;
     padding-right: 0;
 }
 h1{
     margin-left: 7px;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-top: 7px;
 }
@@ -40,17 +42,18 @@ h1{
 }
 .a01:visited {
     background-color: rgb(104, 177, 104);
-    color: white;
+    /* color: white; */
 }
 #i02 {
-    font-size: 40px;
-    margin-left: 70%;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 40%;
     color: white;
 }
 .list-group-item {
     background-color: rgb(104, 177, 104);
-    height: 71px;
-    font-size: 20px;
+    height: 96.6px;
+    font-size: 25px;
     color: white;
 }
 .a01:hover {
@@ -65,4 +68,8 @@ h1{
 }
 marquee {
     font-size: 50px;
+    color: red;
+}
+span {
+    font-size: 30px;
 }

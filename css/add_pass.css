@@ -23,9 +23,12 @@
 }
 h1{
     margin-left: 7px;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-top: 7px;
+}
+span{
+    font-size: 30px;
 }
 #i01{
     text-align: center;
@@ -43,13 +46,14 @@ h1{
     color: white;
 }
 #i02 {
-    font-size: 40px;
-    margin-left: 70%;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 45%;
     color: white;
 }
 .list-group-item {
     background-color: rgb(104, 177, 104);
-    height: 71px;
+    height: 96.6px;
     font-size: 20px;
     color: white;
 }

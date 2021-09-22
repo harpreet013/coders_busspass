@@ -23,7 +23,7 @@
 }
 h1{
     margin-left: 7px;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-top: 7px;
 }
@@ -44,12 +44,13 @@ h1{
 }
 #i02 {
     font-size: 40px;
-    margin-left: 70%;
+    margin-left: 45%;
+    margin-top: 15px;
     color: white;
 }
 .list-group-item {
     background-color: rgb(104, 177, 104);
-    height: 71px;
+    height: 95px;
     font-size: 20px;
     color: white;
 }

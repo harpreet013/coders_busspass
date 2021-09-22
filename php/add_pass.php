@@ -12,59 +12,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/2a538a4ef9.js" crossorigin="anonymous"></script>
-    <link href="../css/add_pass.css" rel="stylesheet">
+    
+    <style>
+        <?php  include '../css/add_pass.css'; ?>
+    </style>
 </head>
 <body>
-    <div class="container-fluid">
+<div class="container-fluid">
         <div class="row row1">
-                <div class="col-md-4">
-                    <a href="dashboard.php"><h1>Bus pass Management System</h1></a>
+                <div class="col-md-11">
+                    <marquee><h1>Bus pass Management System</h1></marquee>
                 </div>
-                <div class="col-md-6"></div>
-                <div class="col-md-2">
+                
+                <div class="col-md-1">
                     <a href="login.php"><i class="fas fa-user" id="i02"></i></a>
                 </div>
         </div>
         <div class="row row2">
             <div class="col-md-2">
-                <p><i class="fas fa-user" id="i01"></i><span> <b>Admin</b></span></p>
+                <p><i class="fas fa-user" id="i01"></i><span> Admin</span></p>
                 <ul class="list-group list-group-flush">
                     <li><a href="dashboard.php" class="list-group-item list-group-item-action a01"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
-                    
-                    <li>
-                        <a href="#" class="dropdown-toggle list-group-item list-group-item-action a01" data-toggle="dropdown"><i class="far fa-image"></i> Category</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item list-group-item list-group-item-action a01" href="Add_category.php">Add Category</a>
-                            <a class="dropdown-item list-group-item list-group-item-action a01" href="man_category.php">Manage Category</a>
-                        </div>
-                    </li>
 
                     <li>
-                        <a href="#" class="dropdown-toggle list-group-item list-group-item-action a01" data-toggle="dropdown"><i class="far fa-file-alt"></i> Passes</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item list-group-item list-group-item-action a01" href="add_pass.php">Add Pass</a>
-                            <a class="dropdown-item list-group-item list-group-item-action a01" href="man_pass.php">Manage Pass</a>
-                        </div>
+                        <a href="add_pass.php" class="list-group-item list-group-item-action a01"><i class="far fa-file-alt"></i> Add Pass</a>
                     </li>
                     
                     <li>
-                        <a href="#" class="dropdown-toggle list-group-item list-group-item-action a01" data-toggle="dropdown"><i class="far fa-file-alt"></i> Pages</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item list-group-item list-group-item-action a01" href="add_page.php">Add Page</a>
-                            <a class="dropdown-item list-group-item list-group-item-action a01" href="man_page.php">Manage Page</a>
-                        </div>
+                        <a href="#" class="list-group-item list-group-item-action a01"><i class="far fa-address-book"></i></i> Contact Us</a>
                     </li>
                     
                     <li>
-                        <a href="#" class="dropdown-toggle list-group-item list-group-item-action a01" data-toggle="dropdown"><i class="far fa-file-alt"></i> Enquiry</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item list-group-item list-group-item-action a01" href="read_enquiry.php">Read Enquiry</a>
-                            <a class="dropdown-item list-group-item list-group-item-action a01" href="unread_enquiry.php">Unread Enquiry</a>
-                        </div>
+                        <a href="read_enquiry.php" class="list-group-item list-group-item-action a01"><i class="far fa-file-alt"></i> Read Enquiry</a>
+                    </li>
+                    <li>
+                    <a href="unread_enquiry.php" class="list-group-item list-group-item-action a01"><i class="far fa-file-alt"></i> UnRead Enquiry</a>
                     </li>
                     
                     <li><a href="search.php" class="list-group-item list-group-item-action a01"><i class="fas fa-search"></i> Search</a></li>
-                    <li><a href="Passes_Report.php" class="list-group-item list-group-item-action a01"><i class="fas fa-folder"></i> Report of Passes</a></li>
                 </ul>
             </div>
             <div class="col-md-10">
@@ -89,9 +74,8 @@
                         <label for="identity_name">Category:</label>        
                         <input list="iddd" class="form-control" id="category" name="category" placeholder="Choose bus category">
                             <datalist id="iddd">
-                                <option value="AC Bus"></option>
-                                <option value="Non AC Bus"></option>
-                                <option value="Volvo Bus"></option>
+                                <option value="Student"></option>
+                                <option value="Other Staff"></option>
                             </datalist><br>
                         <label for="identity_id">Identity Id:</label>
                             <input list="id" class="form-control" id="identity_id" name="identity_id" placeholder="Choose your Identity">
@@ -102,7 +86,7 @@
                                 <option value="Ration Card"> 
                                 <option value="Driving License">  
                             </datalist><br>
-                        <label for="identity_name">Identity Name:</label>        
+                        <label for="identity_name">Identity Number:</label>        
                         <input type="text" class="form-control" id="identity_name" name="identity_name" placeholder="Enter your Identity Number"><br>
                         <label for="source">Source:</label>
                         <input type="text" class="form-control" id="source" name="source" placeholder="Enter your Source"><br>
@@ -113,7 +97,7 @@
                         <label for="to_date">To Date:</label>
                         <input type="date" class="form-control" id="to_date" name="to_date"><br>
                         <label for="cost">Cost:</label>
-                        <input type="number" class="form-control" id="cost" name="cost" placeholder="Automatic Generated Cost" disabled><br>
+                        <input type="number" class="form-control" id="cost" name="cost" placeholder="Automatic Generated Cost"><br>
                         
                         <a href="payment.php" class="btn btn-primary" id="submit">Add Pass Details</a>
                     </div>
