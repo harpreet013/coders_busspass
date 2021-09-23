@@ -58,13 +58,14 @@
                 <div class="form-group">
                     <textarea class="form-control" rows="5" column="40" id="comment" placeholder="message"></textarea>
                     <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                    <!-- <a href="#" class="btn btn-primary mt-3" id="submit">Submit</a> -->
                 </div>
             </div>
             <div class="col-md-8">
                 <!-- <h2 class="header text-center">GET IN TOUCH</h2> -->
-                <h3 class="mt-5 ml-5"><i class="fas fa-map-marker text-white"></i> Maharaja Agarsen Institute of Management and Technology</h3><br>
-                <h3 class="ml-5"><i class="fas fa-phone-alt text-white"></i> Mobile No: 9999999999</h3><br>
-                <h3 class="ml-5"><i class="fas fa-envelope text-white"></i> Gmail Id: maimt@gmail.com</h3>
+                <h3 class="mt-5 ml-5"><i class="fas fa-map-marker text-black"></i> Maharaja Agarsen Institute of Management and Technology</h3><br>
+                <h3 class="ml-5"><i class="fas fa-phone-alt text-black"></i> Mobile No: 9999999999</h3><br>
+                <h3 class="ml-5"><i class="fas fa-envelope text-black"></i> Gmail Id: maimt@gmail.com</h3>
             </div>
             </div>
         </div>

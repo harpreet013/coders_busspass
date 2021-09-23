@@ -22,7 +22,7 @@
 <div class="container-fluid">
         <div class="row row1">
                 <div class="col-md-11">
-                    <marquee><h1>Bus pass Management System</h1></marquee>
+                    <marquee><h1>Bus Pass Management System</h1></marquee>
                 </div>
                 
                 <div class="col-md-1">
@@ -70,7 +70,6 @@
                     <div class="third">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button type="button" class="btn btn-outline-primary">Previous</button>
-                            <button type="button" class="btn btn-outline-primary">1</button>
                             <button type="button" class="btn btn-outline-primary">Next</button>
                         </div>
                     </div>

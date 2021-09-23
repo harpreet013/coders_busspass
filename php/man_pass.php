@@ -19,7 +19,7 @@
 <div class="container-fluid">
         <div class="row row1">
                 <div class="col-md-11">
-                    <marquee><h1>Bus pass Management System</h1></marquee>
+                    <marquee><h1>Bus Pass Management System</h1></marquee>
                 </div>
                 
                 <div class="col-md-1">
