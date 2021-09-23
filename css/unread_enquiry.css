@@ -51,7 +51,7 @@ h1{
 .list-group-item {
     background-color: rgb(104, 177, 104);
     height: 96.7px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 .a01:hover {
@@ -66,8 +66,7 @@ h1{
 }
 h1{
     margin-left: 5px;
-    margin-bottom: 20px;
-   
+    margin-bottom: 20px;   
 }
 span{
     padding: 10px;
@@ -79,6 +78,7 @@ form {
 }
 .two {
     margin-left: 60%;
+    font-size: 25px;
 }
 .table{
     margin-top: 23px;
@@ -92,11 +92,13 @@ form {
     margin-left:  900px; 
 }
 .form-control {
-    width: 15%;
-    
+    width: 15%;   
     margin-left: 85%;
 }
 h5 {
     font-size: 17px;
     font-weight: 500;
+}
+#search {
+    margin-top: -45px;
 }

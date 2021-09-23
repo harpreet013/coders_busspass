@@ -4,7 +4,7 @@
     padding: 0;
 }
 #search {
-    margin-top: 10px;
+    margin-top: -45px;
 }
 .row1 {
     border: 1px thick lightskyblue;
@@ -54,7 +54,7 @@ h1{
 .list-group-item {
     background-color: rgb(104, 177, 104);
     height: 95px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 .a01:hover {
@@ -93,7 +93,9 @@ span{
     margin-left:  900px; 
 }
 .form-control {
-    width: 15%;
-    
+    width: 15%;   
     margin-left: 85%;
 }
+/* input[type='search'] {
+    font-size: 20px;
+} */

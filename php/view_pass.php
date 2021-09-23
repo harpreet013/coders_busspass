@@ -12,8 +12,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/2a538a4ef9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/view_pass.css">
     <title>View Pass</title>
+    <style>
+      <?php include '../css/view_pass.css'; ?>
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm ">

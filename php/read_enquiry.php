@@ -38,7 +38,7 @@
                     </li>
                     
                     <li>
-                        <a href="#" class="list-group-item list-group-item-action a01"><i class="far fa-address-book"></i></i> Contact Us</a>
+                        <a href="contact_us.php" class="list-group-item list-group-item-action a01"><i class="far fa-address-book"></i></i> Contact Us</a>
                     </li>
                     
                     <li>
@@ -55,7 +55,7 @@
                 <h2>Read Enquiry</h2><hr>
                 <form action="" method="POST">
                     <label for="number"></label>
-                    <input type="number" class="one " name="10" min="0" max="10"><span>records per page</span>
+                    <input type="number" class="one" name="10" min="0" max="10"><span>records per page</span>
                     <label for="search" class="two">Search: </label>
                     <input type="search" class="form-control" id="search" name="search">
                     <table class="table table-bordered">

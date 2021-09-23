@@ -12,7 +12,7 @@
 .row2 {
     height: 100px;
     color: white;
-    background-color: skyblue;
+    background-color: #87ceeb;
 }
 .col-md-2 {
     position: relative;
@@ -54,7 +54,7 @@ span{
 .list-group-item {
     background-color: rgb(104, 177, 104);
     height: 96.6px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 .a01:hover {

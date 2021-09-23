@@ -10,17 +10,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" href="../css/regular.css"> -->
     <title>REGULAR USER BUS PASS</title>
     <style>
         <?php  include '../css/regular.css'; ?>
     </style>
 </head>
 <body>
-    <img src="../images/buses-2.jpg" alt="buses" height="657" width="1348">
+    <img src="../images/buses-2.jpg" alt="buses" height="730" width="1517.5">
     <div class="container" style="line-height: 15px;">
         <h2>ADD REGULAR USER DETAILS</h2>
-         <form  method="POST" action="insert_add_pass1.php"> 
+        <form method="POST" action="insert_add_pass1.php"> 
         <div class="row">
             <div class="col">
                 <div class="form-group">

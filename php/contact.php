@@ -13,6 +13,9 @@
     <script src="https://kit.fontawesome.com/2a538a4ef9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/contact.css">
     <title>Contact</title>
+    <style>
+      <?php  include '../css/contact.css'; ?>
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm ">
@@ -40,8 +43,7 @@
             <a class="dropdown-toggle nav-link" href="#" id="dropDownLink" data-toggle="dropdown"><i class="fas fa-user"></i> Login</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="login.php">Admin Login</a>
-              <a class="dropdown-item" href="Student User.php">Student User Login</a>
-              <a class="dropdown-item" href="Regular User.php">Regular User Login</a>
+              <a class="dropdown-item" href="add_pass1.php">Add Pass</a>
             </div>
           </li>
         </ul>
@@ -49,7 +51,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <h1>CONTACT US</h1>
+            <h1 class="text-center">CONTACT US</h1>
                 <div class="form-group">
                     <input type="text" class="form-control" id="number" placeholder="Enter your pass id">
                 </div>
@@ -59,10 +61,10 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <h2 class="header">GET IN TOUCH:</h2>
-                <h3><i class="fas fa-map-marker" ></i> Maharaja Agarsen Institute of Management and Technology</h3><br>
-                <h3><i class="fas fa-phone-alt"></i> Mobile No: 9999999999</h3><br>
-                <h3><i class="fas fa-envelope"></i> Gmail Id: maimt@gmail.com</h3>
+                <!-- <h2 class="header text-center">GET IN TOUCH</h2> -->
+                <h3 class="mt-5 ml-5"><i class="fas fa-map-marker text-white"></i> Maharaja Agarsen Institute of Management and Technology</h3><br>
+                <h3 class="ml-5"><i class="fas fa-phone-alt text-white"></i> Mobile No: 9999999999</h3><br>
+                <h3 class="ml-5"><i class="fas fa-envelope text-white"></i> Gmail Id: maimt@gmail.com</h3>
             </div>
             </div>
         </div>

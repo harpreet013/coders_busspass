@@ -42,8 +42,8 @@
                 <a class="dropdown-toggle nav-link" href="#" id="dropDownLink" data-toggle="dropdown"><i class="fas fa-user"></i> Login</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="login.php">Admin Login</a>
-                  <a class="dropdown-item" href="Student User.php">Student User Login</a>
-                  <a class="dropdown-item" href="Regular User.php">Regular User Login</a>
+                  <a class="dropdown-item" href="add_pass1.php">Add Pass</a>
+                  
                 </div>
               </li>
             </ul>
@@ -51,61 +51,61 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <!-- <h1>Team Members</h1> -->
+                    <marquee><h1 class="text-white">Team Members</h1></marquee>
                     <div class="card">
                       <img class="card-img-top" src="../images/buses-2.jpg" alt="Card image">
                       <div class="card-body">
-                        <h4 class="card-title">Vasu Narang(T.L)</h4>
-                        <p class="card-text">Distributed work to my rest team members. And also saw how they are working.</p>
+                        <h4 class="card-title">Priyanka Verma(Team Mentor)</h4>
+    
                       </div>
                     </div>
                     <div class="card card1">
                       <img class="card-img-top" src="../images/buses-2.jpg" alt="Card image">
                       <div class="card-body">
                         <h4 class="card-title">Vasu Narang(T.L)</h4>
-                        <p class="card-text">Distributed work to my rest team members. And also saw how they are working.</p>
+    
                       </div>
                     </div>
                     <div class="card card1">
                       <img class="card-img-top" src="../images/buses-2.jpg" alt="Card image">
                       <div class="card-body">
-                        <h4 class="card-title">Vasu Narang(T.L)</h4>
-                        <p class="card-text">Distributed work to my rest team members. And also saw how they are working.</p>
+                        <h4 class="card-title">Hardik Sharma(A.T.L)</h4>
+    
                       </div>
                     </div>
                     <div class="card card1">
                       <img class="card-img-top" src="../images/buses-2.jpg" alt="Card image">
                       <div class="card-body">
-                        <h4 class="card-title">Vasu Narang(T.L)</h4>
-                        <p class="card-text">Distributed work to my rest team members. And also saw how they are working.</p>
+                        <h4 class="card-title">Harish</h4>
+    
                       </div>
                     </div>
                     <div class="card card3">
                       <img class="card-img-top" src="../images/buses-2.jpg" alt="Card image">
                       <div class="card-body">
-                        <h4 class="card-title">Vasu Narang(T.L)</h4>
-                        <p class="card-text">Distributed work to my rest team members. And also saw how they are working.</p>
+                        <h4 class="card-title">Harpreet</h4>
+    
                       </div>
                     </div>
                     <div class="card card2">
                       <img class="card-img-top" src="../images/buses-2.jpg" alt="Card image">
                       <div class="card-body">
-                        <h4 class="card-title">Vasu Narang(T.L)</h4>
-                        <p class="card-text">Distributed work to my rest team members. And also saw how they are working.</p>
+                        <h4 class="card-title">Vaishali</h4>
+    
                       </div>
                     </div>
                     <div class="card card2">
                       <img class="card-img-top" src="../images/buses-2.jpg" alt="Card image">
                       <div class="card-body">
-                        <h4 class="card-title">Vasu Narang(T.L)</h4>
-                        <p class="card-text">Distributed work to my rest team members. And also saw how they are working.</p>
+                        <h4 class="card-title">Priya</h4>
+    
                       </div>
                     </div>
                     <div class="card card2">
                       <img class="card-img-top" src="../images/buses-2.jpg" alt="Card image">
                       <div class="card-body">
-                        <h4 class="card-title">Vasu Narang(T.L)</h4>
-                        <p class="card-text">Distributed work to my rest team members. And also saw how they are working.</p>
+                        <h4 class="card-title">Suraj</h4>
+    
                       </div>
                     </div>
                 </div>

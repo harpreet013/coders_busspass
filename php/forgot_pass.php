@@ -13,7 +13,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/2a538a4ef9.js" crossorigin="anonymous"></script>
     <link href="../css/forgot_pass.css" rel="stylesheet">
-    <title></title>
+    <title>Reset Password</title>
+    <style>
+      <?php include '../css/forgot_pass.css'; ?>
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm">

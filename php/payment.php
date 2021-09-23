@@ -40,7 +40,7 @@
                     </li>
                     
                     <li>
-                        <a href="#" class="list-group-item list-group-item-action a01"><i class="far fa-address-book"></i></i> Contact Us</a>
+                        <a href="contact_us.php" class="list-group-item list-group-item-action a01"><i class="far fa-address-book"></i></i> Contact Us</a>
                     </li>
                     
                     <li>

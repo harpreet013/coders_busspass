@@ -49,8 +49,8 @@ h1{
 }
 .list-group-item {
     background-color: rgb(104, 177, 104);
-    height: 71px;
-    font-size: 20px;
+    height: 95px;
+    font-size: 25px;
     color: white;
 }
 .a01:hover {
@@ -62,4 +62,36 @@ h1{
     color: black;
     position: relative;
     top: 14%;
+}
+h2 {
+    color: black;
+}
+form {
+    background-color: white;
+    padding: 10px;
+}
+.two {
+    margin-left: 60%;
+    margin-top: 20px;
+    font-size: 25px;
+}
+span{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.table{
+    margin-top: 23px;
+    width: 100%;
+}
+.d-grid{
+    margin-top: -5px;
+    margin-left:  900px; 
+}
+.form-control {
+    width: 15%;   
+    margin-left: 85%;
+}
+#search {
+    margin-top: -45px;
 }
