@@ -18,7 +18,7 @@
 <body>
     <img src="../images/buses-2.jpg" alt="buses" height="730" width="1517.5">
     <div class="container" style="line-height: 15px;">
-        <h2>ADD REGULAR USER DETAILS</h2>
+        <h2>ADD USER DETAILS</h2>
         <form method="POST" action="insert_add_pass1.php"> 
         <div class="row">
             <div class="col">
@@ -136,7 +136,14 @@
             <div class="col">
                 <div class="form-group">
                     <label for="cost">Cost:</label>
-                    <input type="number" class="form-control" id="cost" name="cost" placeholder=" Cost" >
+                    <input list="idddd" class="form-control" id="cost" name="cost" placeholder="Choose your payment option">
+                            <datalist id="idddd">
+                                <option value="Paytm"> 
+                                <option value="Paypal"> 
+                                <option value="Phone Pay"> 
+                                <option value="Amazon Pay"> 
+                                <option value="Google Pay">  
+                            </datalist>
                 </div>
             </div>
             <div class="col">

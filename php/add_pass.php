@@ -239,6 +239,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                             <datalist id="idddd">
                                 <option value="Paytm"> 
                                 <option value="Paypal"> 
+                                <option value="Phone Pay">
                                 <option value="Amazon Pay"> 
                                 <option value="Google Pay"> 
                             </datalist>
