@@ -41,7 +41,11 @@
             <a class="nav-link" id="view" href="view_pass.php">view pass</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="login.php"><i class="fas fa-user"></i> Login</a>
+          <a class="dropdown-toggle nav-link" href="#" id="dropDownLink" data-toggle="dropdown"><i class="fas fa-user"></i> Login</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="login.php">Admin Login</a>
+              <a class="dropdown-item" href="add_pass1.php">Add Pass</a>
+            </div>
           </li>
         </ul>
     </nav>
@@ -63,7 +67,7 @@
                         <input type="password" class="form-control" id="pwd1" name="pwd1" placeholder="Re-Enter your new password">
                       </div>
                     
-                      <button type="submit" class="btn btn-primary" id="submit">SUBMIT</button>
+                      <button type="submit" href="forgetpass_db.php" class="btn btn-primary" id="submit">SUBMIT</button>
                 </form>
             </div>
         </div>

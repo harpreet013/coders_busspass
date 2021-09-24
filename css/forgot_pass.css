@@ -46,7 +46,13 @@ body:after {
 .header h1{
     font-size: 35px;
 }
-
+.dropdown-menu {
+    right: 0;
+    margin-left: 85%;
+}
+.dropdown-item:hover {
+    background-color: skyblue;
+}
 .view {
         margin-top: 10px;
         padding: 25px 15px;
@@ -191,6 +197,13 @@ body:after {
     margin-left: 30%;
     width: fit-content;
     width: 45%;
+}
+.dropdown-menu {
+    right: 0;
+    margin-left: 85%;
+}
+.dropdown-item:hover {
+    background-color: skyblue;
 }
 #f_pwd {
     margin-left: 63%;

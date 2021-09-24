@@ -40,7 +40,11 @@
             <a class="nav-link" id="view" href="view_pass.php">view pass</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="login.php"><i class="fas fa-user"></i> Login</a>
+          <a class="dropdown-toggle nav-link" href="#" id="dropDownLink" data-toggle="dropdown"><i class="fas fa-user"></i> Login</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="login.php">Admin Login</a>
+              <a class="dropdown-item" href="add_pass1.php">Add Pass</a>
+            </div>
           </li>
         </ul>
     </nav>

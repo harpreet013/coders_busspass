@@ -19,6 +19,13 @@ body:after {
     opacity:0.6;
 
 }
+.dropdown-menu {
+    right: 0;
+    margin-left: 85%;
+}
+.dropdown-item:hover {
+    background-color: skyblue;
+}
 .navbar{ 
     display: flex;
     justify-content: space-between !important;
