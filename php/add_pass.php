@@ -3,7 +3,7 @@
 //define variables and set to empty values
 
 $fnameErr = $lnameErr = $phoneErr = $categoryErr = $emailErr = $genderErr = $identityErr = $identity2Err = $sourceErr = $destinationErr =  $fromdateErr = $todateErr = $costErr = ""; 
-$fname = $lname = $phone = $email = $gender = $identity_id = $identity_name = $fromdate = $todate =  = $course = $cost = "";
+$fname = $lname = $phone = $email = $gender = $identity_id = $identity_name = $fromdate = $todate = $course = $cost = "";
 $valid=false;
 if($_SERVER["REQUEST_METHOD"] == "POST")
     {
@@ -97,7 +97,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             $father_name = test_input($_POST["from_date"]);
         }
 
-        if(empty(&_POST["to_date"])){
+        if(empty($_POST["to_date"])){
             $todateErr = "Date is required";
             $valid = false;
         }
@@ -184,16 +184,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                     <div class="form-group bg-white p-3">
                         <label for="fname">Fname:</label>
                         <input type="text" class="form-control" id="fname" name="fname" placeholder = "Enter the fname">
-                        <span class = "error"> <?php echo $fnameErr;?></span><br><br><br>
+                        <span class = "error"> <?php echo $fnameErr;?></span><br><br>
                         <label for="lname">Lname:</label>
                         <input type="text" class="form-control" id="lname" name="lname" placeholder = "Enter the lname">
-                        <span class = "error"><?php echo $lnameErr;?></span><br><br>><br>
+                        <span class = "error"><?php echo $lnameErr;?></span><br><br>
                         <label for="number">Phone Number:</label>
                         <input type="number" class="form-control" id="number" name="phone" placeholder = "Enter the phone number">
-                        <span class = "error"><?php echo $phoneErr;?></span><br><br><br>
+                        <span class = "error"><?php echo $phoneErr;?></span><br><br>
                         <label for="email">Email:</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder = "Enter the email">
-                        <span class = "error"> <?php echo $emailErr;?></span><br><br><br>
+                        <span class = "error"> <?php echo $emailErr;?></span><br><br>
                         <label for="gender">Gender:</label>
                         <input list="idd" class="form-control" id="gender" name="gender" placeholder="Choose your Gender">
                         <datalist id="idd">
@@ -201,14 +201,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                             <option value="Female"> 
                             <option value="Other"> 
                         </datalist>
-                        <span class = "error"> <?php echo $genderErr;?></span><br><br><br>
+                        <span class = "error"> <?php echo $genderErr;?></span><br><br>
                         <label for="identity_name">Category:</label>        
                         <input list="iddd" class="form-control" id="category" name="category" placeholder="Choose bus category">
                             <datalist id="iddd">
                                 <option value="Student"></option>
                                 <option value="Other Staff"></option>
                             </datalist>
-                            <span class = "error"><?php echo $categoryErr;?></span><br><br><br>
+                            <span class = "error"><?php echo $categoryErr;?></span><br><br>
                         <label for="identity_id">Identity Id:</label>
                             <input list="id" class="form-control" id="identity_id" name="identity_id" placeholder="Choose your Identity">
                             <datalist id="id">
@@ -218,27 +218,33 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                                 <option value="Ration Card"> 
                                 <option value="Driving License">  
                             </datalist>
-                            <span class = "error"> <?php echo $identityErr;?></span><br><br><br>
+                            <span class = "error"> <?php echo $identityErr;?></span><br><br>
                         <label for="identity_name">Identity Number:</label>        
                         <input type="text" class="form-control" id="identity_name" name="identity_name" placeholder="Enter your Identity Number">
-                        <span class = "error"><?php echo $identity2Err;?></span><br><br><br>
+                        <span class = "error"><?php echo $identity2Err;?></span><br><br>
                         <label for="source">Source:</label>
                         <input type="text" class="form-control" id="source" name="source" placeholder="Enter your Source">
-                        <span class = "error"><?php echo $sourceErr;?></span><br><br><br>
+                        <span class = "error"><?php echo $sourceErr;?></span><br><br>
                         <label for="destination">Destination:</label>
                         <input type="text" class="form-control" id="destination" name="destination" placeholder="Enter your Destination">
-                        <span class = "error"><?php echo $destinationErr;?></span><br><br><br>
+                        <span class = "error"><?php echo $destinationErr;?></span><br><br>
                         <label for="from_date">From Date:</label>
                         <input type="date" class="form-control" id="from_date" name="from_date">
-                        <span class = "error"><?php echo $fromdateErr;?></span><br><br><br>
+                        <span class = "error"><?php echo $fromdateErr;?></span><br><br>
                         <label for="to_date">To Date:</label>
                         <input type="date" class="form-control" id="to_date" name="to_date">
-                        <span class = "error"><?php echo $todateErr;?></span><br><br><br>
+                        <span class = "error"><?php echo $todateErr;?></span><br><br>
                         <label for="cost">Cost:</label>
-                        <input type="number" class="form-control" id="cost" name="cost" placeholder="Automatic Generated Cost">
-                        <span class = "error"><?php echo $costErr;?></span><br><br><br>
+                            <input list="idddd" class="form-control" id="cost" name="cost" placeholder="Choose your Payment option">
+                            <datalist id="idddd">
+                                <option value="Paytm"> 
+                                <option value="Paypal"> 
+                                <option value="Amazon Pay"> 
+                                <option value="Google Pay"> 
+                            </datalist>
+                        <span class = "error"><?php echo $costErr;?></span><br><br>
                         
-                        <a href="payment.php" class="btn btn-primary" id="submit" name = "submit">Add Pass Details</a>
+                        <button type="submit" class="btn btn-primary" id="submit" name="submit">Add Pass Details</button>
                     </div>
                 </form>
             </div>
