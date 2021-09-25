@@ -52,15 +52,17 @@
         <div class="row">
             <div class="col-md-3">
             <h1 class="text-center">CONTACT US</h1>
+            <form action="contact_us_db.php" method="post">
                 <div class="form-group">
-                    <input type="text" class="form-control" id="number" placeholder="Enter your pass id">
+                    <input type="text" class="form-control" id="number" name="number" placeholder="Enter your phone number">
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" rows="5" column="40" id="comment" placeholder="message"></textarea>
+                    <textarea class="form-control" rows="5" column="40" id="message" name="message"placeholder="message"></textarea>
                     <button type="submit" class="btn btn-primary mt-3">Submit</button>
                     <!-- <a href="#" class="btn btn-primary mt-3" id="submit">Submit</a> -->
                 </div>
             </div>
+</form>
             <div class="col-md-8">
                 <!-- <h2 class="header text-center">GET IN TOUCH</h2> -->
                 <h3 class="mt-5 ml-5"><i class="fas fa-map-marker text-black"></i> Maharaja Agarsen Institute of Management and Technology</h3><br>

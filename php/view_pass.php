@@ -51,13 +51,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-              <form action="searchpass_db.php" method="POST">
+              
                 <h1 class="text-center">View Pass</h1>
+                <form action="view_pass_db.php" method="POST">
                   <div class="form-group">
-                    <input type="text" id="passnumber" placeholder="Search by Pass Number" name="passnumber">
+                   Pass_Number : <input type="text" id="passnumber" name="passnumber" placeholder="Search by Pass Number" name="passnumber">
                   </div>  
                   <div class="form-group">  
-                    <button type="submit" class="btn btn-primary" id="search">Search</button>
+                    <button type="submit" class="btn btn-primary" name="submit">Search</button>
                   </div>
                 
               </form>

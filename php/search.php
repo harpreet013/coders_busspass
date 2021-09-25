@@ -53,11 +53,11 @@
             </div>
             <div class="col-md-10">
                 <h2>Search pass</h2><hr>
-                <form action="" method="POST">
+                <form action="view_pass_db.php" method="POST">
                     <div class="form-group">
                         <h3>Search by Pass Number/Mobile Number</h3>
-                        <input type="text" class="form-control" id="number" name="number" placeholder="Enter mobile number or pass number"><br>
-                        <a href="#" class="btn btn-primary" id="submit">Search</a>
+                        <input type="text" class="form-control" id="number" name="passnumber" placeholder="Enter mobile number or pass number"><br>
+                        <button class="btn btn-primary" id="submit">Search</button>
                     </div>
                 </form>
             </div>

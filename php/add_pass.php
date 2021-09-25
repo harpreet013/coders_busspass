@@ -180,7 +180,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             </div>
             <div class="col-md-10">
                 <h2>Add Pass</h2><hr>
-                <form action="" method="POST">
+                <form action="insert_add_pass1.php" method="POST">
                     <div class="form-group bg-white p-3">
                         <label for="fname">Fname:</label>
                         <input type="text" class="form-control" id="fname" name="fname" placeholder = "Enter the fname">
@@ -189,7 +189,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                         <input type="text" class="form-control" id="lname" name="lname" placeholder = "Enter the lname">
                         <span class = "error"><?php echo $lnameErr;?></span><br><br>
                         <label for="number">Phone Number:</label>
-                        <input type="number" class="form-control" id="number" name="phone" placeholder = "Enter the phone number">
+                        <input type="number" class="form-control" id="number" name="number" placeholder = "Enter the phone number">
                         <span class = "error"><?php echo $phoneErr;?></span><br><br>
                         <label for="email">Email:</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder = "Enter the email">
@@ -210,7 +210,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                             </datalist>
                             <span class = "error"><?php echo $categoryErr;?></span><br><br>
                         <label for="identity_id">Identity Id:</label>
-                            <input list="id" class="form-control" id="identity_id" name="identity_id" placeholder="Choose your Identity">
+                            <input list="id" class="form-control" id="identity_id" name="idtype" placeholder="Choose your Identity">
                             <datalist id="id">
                                 <option value="AAdhar Card"> 
                                 <option value="Voter Card"> 
@@ -220,19 +220,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                             </datalist>
                             <span class = "error"> <?php echo $identityErr;?></span><br><br>
                         <label for="identity_name">Identity Number:</label>        
-                        <input type="text" class="form-control" id="identity_name" name="identity_name" placeholder="Enter your Identity Number">
+                        <input type="file" class="form-control" id="identity_name" name="iddoc" placeholder="Enter your Identity Number">
                         <span class = "error"><?php echo $identity2Err;?></span><br><br>
                         <label for="source">Source:</label>
                         <input type="text" class="form-control" id="source" name="source" placeholder="Enter your Source">
                         <span class = "error"><?php echo $sourceErr;?></span><br><br>
                         <label for="destination">Destination:</label>
-                        <input type="text" class="form-control" id="destination" name="destination" placeholder="Enter your Destination">
+                        <input type="text" class="form-control" id="destination" name="des" placeholder="Enter your Destination">
                         <span class = "error"><?php echo $destinationErr;?></span><br><br>
                         <label for="from_date">From Date:</label>
-                        <input type="date" class="form-control" id="from_date" name="from_date">
+                        <input type="date" class="form-control" id="from_date" name="sdate">
                         <span class = "error"><?php echo $fromdateErr;?></span><br><br>
                         <label for="to_date">To Date:</label>
-                        <input type="date" class="form-control" id="to_date" name="to_date">
+                        <input type="date" class="form-control" id="to_date" name="edate">
                         <span class = "error"><?php echo $todateErr;?></span><br><br>
                         <label for="cost">Cost:</label>
                             <input list="idddd" class="form-control" id="cost" name="cost" placeholder="Choose your Payment option">
@@ -244,6 +244,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                                 <option value="Google Pay"> 
                             </datalist>
                         <span class = "error"><?php echo $costErr;?></span><br><br>
+                   
+                    <label for="image">Profile Image:</label>
+                    <input type="file" class="form-control" id="image" name="image" onchange="validateImage()">
+                   
                         
                         <button type="submit" class="btn btn-primary" id="submit" name="submit">Add Pass Details</button>
                     </div>
