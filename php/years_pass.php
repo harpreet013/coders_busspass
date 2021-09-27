@@ -60,16 +60,15 @@
                     <table class="table table-bordered">
                     <thead>
                         <th>S.No</th>
+                        <th>Pass Id</th>
                         <th>Name</th>
                         <th>Email</th>
-                        <th>Enquiry</th>
                         <th>Action</th>
                     </thead>
                     </table>
                     <div class="third">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button type="button" class="btn btn-outline-primary">Previous</button>
-                            <button type="button" class="btn btn-outline-primary">1</button>
                             <button type="button" class="btn btn-outline-primary">Next</button>
                         </div>
                     </div>

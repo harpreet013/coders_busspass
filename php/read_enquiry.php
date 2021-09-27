@@ -60,7 +60,10 @@
                     <input type="search" class="form-control" id="search" name="search">
                     <table class="table table-bordered">
                     <thead>
-                        <th>S.No</th>
+                            <th>S.No</th>
+                        <th>Pass Id</th>
+                        <th>Name</th>
+                        <th>Email id</th>
                         <th>Enquiry</th>
                         <th>Action</th>
                     </thead>
