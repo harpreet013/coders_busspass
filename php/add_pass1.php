@@ -95,7 +95,7 @@
             <div class="col">
                 <div class="form-group form1">
                 <label for="image">Identity Document:</label>
-                    <input type="file" class="form-control" id="iddoc" name="iddoc" onchange="validateImage()"   >
+                    <input type="file" class="form-control" id="iddoc" name="iddoc" onchange="validateImage()" required >
                     <span id = "useriddoc"></span>
                 </div>
             </div>
@@ -149,7 +149,7 @@
             <div class="col">
                 <div class="form-group form1">
                     <label for="image">Profile Image:</label>
-                    <input type="file" class="form-control" id="image" name="image" onchange="validateImage()" >
+                    <input type="file" class="form-control" id="image" name="image" onchange="validateImage()" requitrd>
                     <span id = "userimage"></span>
                 </div>
             </div>
