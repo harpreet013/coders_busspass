@@ -61,9 +61,9 @@
                     <table class="table table-bordered">
                     <thead>
                         <th>S.No</th>
+                        <th>Pass Id</th>
                         <th>Name</th>
                         <th>Email</th>
-                        <th>Enquiry</th>
                         <th>Action</th>
                     </thead>
                     </table>

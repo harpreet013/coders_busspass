@@ -83,6 +83,7 @@ span{
 .table{
     margin-top: 23px;
     width: 100%;
+    border: 2px solid black;
 }
 .d-grid{
     margin-top: -5px;
