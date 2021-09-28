@@ -149,7 +149,7 @@
             <div class="col">
                 <div class="form-group form1">
                     <label for="image">Profile Image:</label>
-                    <input type="file" class="form-control" id="image" name="image" onchange="validateImage()" requitrd>
+                    <input type="file" class="form-control" id="image" name="image" onchange="validateImage()" required>
                     <span id = "userimage"></span>
                 </div>
             </div>
