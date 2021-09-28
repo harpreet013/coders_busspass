@@ -62,7 +62,7 @@
                     </div>
                     <div class="card bg-warning">
                         <div class="card-body text-center">
-                            <a href="man_pass.php" class="card-text"><i class="fas fa-trophy"></i> Total Pass</a>
+                            <a href="total_Pass_db.php" class="card-text"><i class="fas fa-trophy"></i> Total Pass</a>
                         </div>
                     </div>
                     <div class="card bg-success">
