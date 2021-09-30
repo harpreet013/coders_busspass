@@ -40,7 +40,7 @@
             <div class="col">
                 <div class="form-group">
                     <label for="phone">Mobile Number:</label>
-                    <input type="tel" class="form-control" id="number" name="number" placeholder="+91-12345-67890" onfocus = "formValidation(event)"  required>
+                    <input type="tel" class="form-control" id="number" name="number" placeholder="9087654321" onfocus = "formValidation(event)"  required>
                     <span id = "usernumber"></span>
                 </div>
             </div>

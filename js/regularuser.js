@@ -16,7 +16,7 @@ function formValidation(event){
     
     let fcheck=/^[A-Za-z]{3,10}$/;
     let lcheck=/^[A-Za-z]{3,10}$/;
-    let ncheck= /^(\+91)-[0-9]([0-9]{4})-([0-9]{5})$/;
+    //let ncheck= /^(\+91)-[0-9]([0-9]{4})-([0-9]{5})$/;
     //let addcheck=/^[A-Za-z0-9.,'() ]{5,500}$/;
 
 
@@ -40,15 +40,29 @@ function formValidation(event){
         return false;
     }
 
-    //Validation for mobile number
-    if(ncheck.test(number)){
-        document.getElementById("usernumber").innerHTML = null; 
+    // //Validation for mobile number
+    // if(ncheck.test(number)){
+    //     document.getElementById("usernumber").innerHTML = null; 
+    // }
+    // else{
+    //     document.getElementById("usernumber").innerHTML ="Format should be +91-00000-00000"; 
+    //     return false;
+    // }
+
+
+     //Validation for mobile number
+     if(number==null){
+        document.getElementById("usernumber").innerHTML = "Please fill the mobile number field"; 
+		return false;
     }
-    else{
-        document.getElementById("usernumber").innerHTML ="Format should be +91-00000-00000"; 
+    else if(number.length!=10){
+        document.getElementById("usernumber").innerHTML ="Mobile number shoulld be 10 character long"; 
         return false;
     }
-
+	else
+	{
+		document.getElementById("usernumber").innerHTML =" ";
+	}
     //Validation for email
     if(email == ""){
         document.getElementById("useremail").innerHTML = "please fill the email"
