@@ -55,7 +55,8 @@
                 <h1 class="text-center">View Pass</h1>
                 <form action="view_pass_db.php" method="POST">
                   <div class="form-group">
-                   Pass_Number : <input type="text" id="passnumber" name="passnumber" placeholder="Search by Pass Number" name="passnumber">
+                  
+                   Phone Number : <input type="text" id="number" name="number" placeholder="Search by Phone Number">
                   </div>  
                   <div class="form-group">  
                     <button type="submit" class="btn btn-primary" name="submit">Search</button>

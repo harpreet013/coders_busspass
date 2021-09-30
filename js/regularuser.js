@@ -8,7 +8,7 @@ function formValidation(event){
     var gender = document.getElementById('gender').value;
     var category = document.getElementById('category').value;
     var identity_id = document.getElementById('idtype').value;
-    var identity_name = document.getElementById('idnum').value;
+  
     var source = document.getElementById('source').value;
     var destination = document.getElementById('des').value;
     var from_date = document.getElementById('sdate').value;

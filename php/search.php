@@ -53,7 +53,7 @@
                 <form action="view_pass_db.php" method="POST">
                     <div class="form-group">
                         <h3>Search by Pass Number/Mobile Number</h3>
-                        <input type="text" class="form-control" id="number" name="passnumber" placeholder="Enter mobile number or pass number"><br>
+                        <input type="text" class="form-control" id="number" name="number" placeholder="Enter mobile number"><br>
                         <button class="btn btn-primary" id="submit">Search</button>
                     </div>
                 </form>
